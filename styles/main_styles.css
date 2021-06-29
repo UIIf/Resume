@@ -1,0 +1,89 @@
+body{
+    background-color: #f5f0d7;
+}
+
+.header{
+    margin-top: 5vh;
+    height: 30vh;
+    background-color: #d1cdb8;
+}
+
+.header__personal-info{
+    width: 30%;
+    
+    margin-left: 1vw;
+}
+
+.header__personal-info div{
+    margin: 5% 0;
+}
+
+.header__personal-info p{
+    margin-bottom: 0%;
+}
+
+.header__avatar{
+    height: 20vh;
+    margin-top: 4%;
+}
+
+.header__full-name{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.header__full-name h1{
+    font-size: 400%;
+}
+
+.header__links{
+    list-style: none;
+    font-size: 120%;
+}
+
+.header__links li a{
+    color: #888;
+    text-decoration: none;
+}
+
+.about-me__left{
+    background-color: #ded9bf;
+}
+
+.about-me__left a {
+    color: #000;
+    text-decoration: none;
+}
+
+.about-me__right{
+    background-color: #e8e2c1;
+    
+}
+.about-me{
+    min-height: 65vh;
+}
+
+.about-me__block ul{
+    list-style: none;
+}
+
+.study-card{
+    padding: 3%;
+    background-color: #ded9bf;
+    margin-bottom: 1%;
+}
+
+.study-card__unifersity a{
+    font-size: 200%;
+    text-decoration: none;
+    color: #000;
+}
+
+.study-card__about-study{
+    padding: 0 4%;
+}
+
+.block__inner{
+    width:90%;
+    margin: 0 auto
+}
