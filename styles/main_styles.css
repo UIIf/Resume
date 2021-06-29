@@ -10,7 +10,6 @@ body{
 
 .header__personal-info{
     width: 30%;
-    
     margin-left: 1vw;
 }
 
@@ -46,8 +45,13 @@ body{
     text-decoration: none;
 }
 
+.about-me__left, .about-me__right{
+    padding: 3vh 0 3vh 2vw;
+}
+  
+
 .about-me__left{
-    background-color: #ded9bf;
+    background-color: #ded9bf; 
 }
 
 
@@ -58,11 +62,8 @@ body{
 
 .about-me__right{
     background-color: #e8e2c1;
-    
 }
-.about-me{
-    min-height: 65vh;
-}
+
 
 .about-me__block ul{
     list-style: none;
@@ -87,4 +88,30 @@ body{
 .block__inner{
     width:90%;
     margin: 0 auto
+}
+
+.carousel-caption a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer{
+    height:15vh;
+    padding: 3vh 3vw;
+    width: 100%;
+    color: #888;
+}
+
+.footer__inner{
+    float: right;
+}
+
+
+.footer ul{
+    list-style: none;
+}
+
+.footer a{
+    color: #888;
+    text-decoration: none;
 }
