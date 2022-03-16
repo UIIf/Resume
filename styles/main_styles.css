@@ -1,12 +1,22 @@
 body{
-    background-color: #f5f0d7;
+    background-color: #2E3440;
 }
 
 .header{
+    color:#D8DEE9;
     margin-top: 5vh;
 /*    height: 13em;*/
-    background-color: #d1cdb8;
+    background-color: #3B4252;
 /*    max-height: 35vw;*/
+}
+
+.link{
+    color:#8FBCBB;
+    text-decoration: none;
+}
+
+.link:hover{
+    color:#88C0D0;
 }
 
 .header__personal-info{
@@ -49,12 +59,13 @@ body{
     font-size: 120%;
 }
 
-.header__links li a{
-    color: #888;
+/* .header__links li a{
+    color:#8FBCBB;
     text-decoration: none;
-}
+} */
 
 .about-me{
+    color:#D8DEE9;
     min-height: 60vh;
 }
 
@@ -64,29 +75,34 @@ body{
   
 
 .about-me__left{
-    background-color: #ded9bf; 
+    background-color: #434C5E; 
     font-size: 1.5em;
 }
 
-.about-me__left h3{
-    background-color: #ded9bf; 
+.about-me__left h3{ 
     font-size: 2em;
 }
 
-.about-me__left a {
-    color: #000;
+
+
+/* .about-me__left a {
+    color:#8FBCBB;
     text-decoration: none;
+} */
+
+.about-me__left ul {
+    color:#E5E9F0;
 }
 
 .about-me__left ul li ul{
-    color: #333;
+    color: #ECEFF4;
     list-style: none;
     font-size: 0.8em;
 }
 
 
 .about-me__right{
-    background-color: #e8e2c1;
+    background-color: #4C566A;
 }
 
 .about-me__right h2{
@@ -103,14 +119,13 @@ body{
 
 .study-card{
     padding: 3%;
-    background-color: #ded9bf;
+    background-color: #434C5E;
     margin-bottom: 1%;
 }
 
 .study-card__unifersity a{
     font-size: 200%;
     text-decoration: none;
-    color: #000;
 }
 
 .study-card__about-study{
@@ -131,7 +146,7 @@ body{
     height:10em;
     padding: 3vh 3vw;
     width: 100%;
-    color: #888;
+    color: #D08770;
     margin: 0;
 }
 
@@ -145,6 +160,6 @@ body{
 }
 
 .footer a{
-    color: #888;
+    color: #8FBCBB;
     text-decoration: none;
 }
