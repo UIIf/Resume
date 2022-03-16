@@ -78,6 +78,13 @@ body{
     text-decoration: none;
 }
 
+.about-me__left ul li ul{
+    color: #333;
+    list-style: none;
+    font-size: 0.8em;
+}
+
+
 .about-me__right{
     background-color: #e8e2c1;
 }
